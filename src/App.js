@@ -10,6 +10,8 @@ import Contact from './pages/ContactPage';
 import Flights from './pages/Flights2';
 import Footer from './components/Footer/Footer';
 import About from './pages/About';
+import Visa from './pages/Visa';
+import TurkeyVisa from './components/TurkeyVisa';
 
 import './App.css';
 
@@ -24,7 +26,10 @@ function App() {
         <Route exact path='/tours' component={Tours} />
         <Route exact path='/tours/:slug' component={SingleTour} />
         <Route exact path='/flights' component={Flights} />
+        <Route exact path='/visa' component={Visa} />
+        <Route exact path='/turkey-visa' component={TurkeyVisa} />
         <Route exact path='/contact' component={Contact} />
+
         <Route component={Error} />
       </Switch>
       <Footer />

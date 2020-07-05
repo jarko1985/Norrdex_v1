@@ -29,7 +29,10 @@ const NavBoots = () => {
           <Nav.Link style={{ borderRight: '1px solid #ccc' }} href='/tours'>
             Tours
           </Nav.Link>
-          <Nav.Link href='/sports'>Sports</Nav.Link>
+          <Nav.Link style={{ borderRight: '1px solid #ccc' }} href='/sports'>
+            Sports
+          </Nav.Link>
+          <Nav.Link href='/visa'>Visa</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

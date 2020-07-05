@@ -11,6 +11,8 @@ import {
 
 export default class Footer extends Component {
   render() {
+    let d = new Date();
+
     return (
       <div
         className='container-fluid'
@@ -52,6 +54,12 @@ export default class Footer extends Component {
               <SocailFollow />
             </div>
           </div>
+        </div>
+        <div
+          className='row'
+          style={{ display: 'flex', justifyContent: 'center' }}
+        >
+          <p>Norrdex Travel {d.toDateString()}</p>
         </div>
       </div>
     );
