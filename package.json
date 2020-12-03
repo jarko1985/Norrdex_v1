@@ -13,6 +13,8 @@
     "axios": "^0.19.2",
     "bootstrap": "^4.5.0",
     "contentful": "^7.14.4",
+    "dotenv": "^8.2.0",
+    "mailchimp-react": "0.0.7",
     "mdbreact": "^4.27.0",
     "react": "^16.13.1",
     "react-bootstrap": "^1.0.1",
@@ -23,6 +25,7 @@
     "react-slick": "^0.26.1",
     "react-slideshow-image": "^1.5.3",
     "react-spring": "^8.0.27",
+    "react-toastify": "^6.1.0",
     "slick-carousel": "^1.8.1",
     "styled-components": "^5.1.1"
   },
