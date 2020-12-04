@@ -20,7 +20,7 @@ body {
   /*padding-top: 66px;*/
   color: var(--mainBlack);
   background: var(--mainWhite);
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-family: "Roboto", sans-serif;
   line-height: 1.4;
 }
 h1 {
@@ -166,24 +166,24 @@ h6 {
 .defaultHero,
 .toursHero {
   min-height: 80vh;
-  background: url('./images/bgHome.jpg') center/cover no-repeat;
+  background: url("./images/bgHome.jpg") center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .toursHero {
-  background-image: url('./images/bgTours.jpg');
+  background-image: url("./images/bgTours.jpg");
   min-height: 80vh;
 }
 .contactHero {
   min-height: 40vh;
-  background: url('./images/contactBcg.jpeg') center/cover no-repeat;
+  background: url("./images/contactBcg.jpeg") center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 .flightHero {
-  background: url('./images/flight-booking.jpeg') center/cover no-repeat;
+  background: url("./images/flight-booking.jpeg") center/cover no-repeat;
   min-height: 30vh;
   width: 90vw;
   margin: 0 auto;

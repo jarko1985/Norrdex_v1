@@ -15,7 +15,7 @@ class VisaCardsContainer extends Component {
             <Card
               imgSRC={canadaVisa}
               imgTitle='Canada ETA'
-              link=''
+              link='canada-eta'
               btnTitle='Apply now'
               subTitle='easy proccess'
             />
@@ -24,7 +24,7 @@ class VisaCardsContainer extends Component {
             <Card
               imgSRC={usaVisa}
               imgTitle='USA ESTA'
-              link=''
+              link='usa-esta'
               btnTitle='Apply now'
               subTitle='easy proccess'
             />
@@ -42,7 +42,7 @@ class VisaCardsContainer extends Component {
             <Card
               imgSRC={australiaVisa}
               imgTitle='Australia ETA'
-              link=''
+              link='/australia-visa'
               btnTitle='Apply now'
               subTitle='easy proccess'
             />

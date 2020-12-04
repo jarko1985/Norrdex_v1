@@ -11,7 +11,10 @@ import Flights from "./pages/Flights2";
 import Footer from "./components/Footer/Footer";
 import About from "./pages/About";
 import Visa from "./pages/Visa";
-import TurkeyV from "./components/TurkeyV";
+import TurkeyV from "./pages/Visa/TurkeyV";
+import AustraliaV from "./pages/Visa/AustraliaV";
+import CanadaV from "./pages/Visa/CanadaV";
+import AmericaV from "./pages/Visa/AmericaV";
 
 import "./App.css";
 function App() {
@@ -29,6 +32,9 @@ function App() {
         <Route exact path="/flights" component={Flights} />
         <Route exact path="/visa" component={Visa} />
         <Route exact path="/turkey-visa" component={TurkeyV} />
+        <Route exact path="/australia-visa" component={AustraliaV} />
+        <Route exact path="/canada-eta" component={CanadaV} />
+        <Route exact path="/usa-esta" component={AmericaV} />
         <Route exact path="/contact" component={Contact} />
 
         <Route component={Error} />
