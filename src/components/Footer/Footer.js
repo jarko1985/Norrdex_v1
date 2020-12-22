@@ -22,30 +22,34 @@ export default class Footer extends Component {
           <div className="col myFooterCol" style={{ display: "flex" }}>
             <div className="footerDiv">
               <h5>
-                <MdQuestionAnswer style={{ margin: "5px" }} />
+                <MdQuestionAnswer
+                  size={30}
+                  color="grey"
+                  style={{ margin: "5px" }}
+                />
                 <Link to="">frequently asked questions</Link>
               </h5>
               <h5>
-                <MdBusiness style={{ margin: "5px" }} />
+                <MdBusiness color="black" size={30} style={{ margin: "5px" }} />
                 <Link to="">Privacy Policy</Link>
               </h5>
               <h5>
-                <MdBusiness style={{ margin: "5px" }} />
+                <MdBusiness color="black" size={30} style={{ margin: "5px" }} />
                 <Link to="">Know your Consumer rights</Link>
               </h5>
             </div>
 
             <div className="footerDiv">
               <h5>
-                <MdEmail style={{ margin: "5px" }} />
+                <MdEmail size={30} color="blue" style={{ margin: "5px" }} />
                 <a href="#info@norrdex-travel.com">info@norrdex-travel.com</a>
               </h5>
               <h5>
-                <MdPhone style={{ margin: "5px" }} />
+                <MdPhone size={30} color="green" style={{ margin: "5px" }} />
                 +46 76 712 36 21
               </h5>
               <h5>
-                <MdMyLocation style={{ margin: "5px" }} />
+                <MdMyLocation size={30} color="red" style={{ margin: "5px" }} />
                 <a href="www.norrdex-travel.com">www.norrdex-travel.com</a>
               </h5>
             </div>
