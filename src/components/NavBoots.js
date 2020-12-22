@@ -1,38 +1,41 @@
-import React from 'react';
-import { Navbar, Nav } from 'react-bootstrap';
-import logo from '../images/logos/logo.jpg';
+import React from "react";
+import { Navbar, Nav } from "react-bootstrap";
+import logo from "../images/logos/logo.jpg";
 
 const NavBoots = () => {
   return (
-    <Navbar collapseOnSelect expand='md' bg='dark' variant='dark'>
-      <Navbar.Brand href='/'>
+    <Navbar collapseOnSelect expand="md" bg="dark" variant="dark">
+      <Navbar.Brand href="/">
         <img
-          alt=''
+          alt=""
           src={logo}
-          width='150'
-          height='100'
-          className='d-inline-block align-top'
+          width="150"
+          height="100"
+          className="d-inline-block align-top"
         />
       </Navbar.Brand>
-      <Navbar.Toggle aria-controls='responsive-navbar-nav' />
-      <Navbar.Collapse id='responsive-navbar-nav'>
-        <Nav className='ml-auto'>
-          <Nav.Link style={{ borderRight: '1px solid #ccc' }} href='/about'>
+      <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+      <Navbar.Collapse id="responsive-navbar-nav">
+        <Nav className="ml-auto">
+          <Nav.Link style={{ borderRight: "1px solid #ccc" }} href="/">
+            Home
+          </Nav.Link>
+          <Nav.Link style={{ borderRight: "1px solid #ccc" }} href="/about">
             About
           </Nav.Link>
-          <Nav.Link style={{ borderRight: '1px solid #ccc' }} href='/flights'>
+          <Nav.Link style={{ borderRight: "1px solid #ccc" }} href="/flights">
             Flights
           </Nav.Link>
-          <Nav.Link style={{ borderRight: '1px solid #ccc' }} href='/hotels'>
+          <Nav.Link style={{ borderRight: "1px solid #ccc" }} href="/hotels">
             Hotels
           </Nav.Link>
-          <Nav.Link style={{ borderRight: '1px solid #ccc' }} href='/tours'>
+          <Nav.Link style={{ borderRight: "1px solid #ccc" }} href="/tours">
             Tours
           </Nav.Link>
-          <Nav.Link style={{ borderRight: '1px solid #ccc' }} href='/sports'>
+          <Nav.Link style={{ borderRight: "1px solid #ccc" }} href="/sports">
             Sports
           </Nav.Link>
-          <Nav.Link href='/visa'>Visa</Nav.Link>
+          <Nav.Link href="/visa">Visa</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>

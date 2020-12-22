@@ -3,7 +3,7 @@ import { Route, Switch } from "react-router-dom";
 
 import NavBoots from "./components/NavBoots";
 import Home from "./pages/Home";
-import Tours from "./pages/Tours";
+//import Tours from "./pages/Tours";
 import Error from "./pages/Error";
 import SingleTour from "./pages/SingleTour";
 import Contact from "./pages/ContactPage";
@@ -27,7 +27,7 @@ function App() {
       <Switch>
         <Route exact path="/" component={Home} />
         <Route exact path="/about" component={About} />
-        <Route exact path="/tours" component={Tours} />
+        <Route exact path="/tours" component={Error} />
         <Route exact path="/tours/:slug" component={SingleTour} />
         <Route exact path="/flights" component={Flights} />
         <Route exact path="/visa" component={Visa} />

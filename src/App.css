@@ -739,3 +739,9 @@ a.instagram {
   position: relative;
   top: 1px;
 }
+
+.error {
+  color: red;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
